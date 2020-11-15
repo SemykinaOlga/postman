@@ -21,7 +21,7 @@ public class ApiPostman {
 // Проверки
                 .then()
                 .statusCode(200)
-                .body("data", equalTo("1234"))
+                .body("data", equalTo("123"))
         ;
     }
 }
